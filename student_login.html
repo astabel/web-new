@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Astabel Student Login</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="Astabel Student Login">
+        <meta name="description" content="Astabel Student Login">
+        <meta name="author" content="astabel.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        
+        <link href="assets/css/modal.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" method="post" action="https://astabelinc.customcollegeplan.com/login">
+  
+    <div class="imgcontainer">
+      <img src="assets/img/woman.png" alt="Avatar" class="avatar">
+	</div>
+	<div class="sub-header" style="text-align:center;">Astabel Student Login</div>
+    <div class="container">
+		<label for="username" class="para-content" style="color:#404040;font-weight:10;"><b>Email Address</b></label>
+		<input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+		<label for="password" class="para-content" style="color:#404040;font-weight:10;"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" type="password" name="password" id="password" required>
+		<input type="hidden" name="login" value="1" />	
+		<button type="submit">Login</button>
+     
+    </div>
+
+    <!--<div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>-->
+    </div>
+  </form>
+</div>
+</body>
+</html>
